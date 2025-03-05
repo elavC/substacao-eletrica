@@ -1,0 +1,457 @@
+@media (max-width: 1700px)   {
+    section.s-about .container {
+        width: 80%;
+        gap: 120px;
+    }
+
+}
+
+@media (max-width: 1500px)   {
+    section.s-about .container-block {
+        width: 86%;
+    }
+
+    .shadow .wrapper h1 {
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width: 1100px)   {
+    .shadow .wrapper h1 {
+        font-size: 18px;
+        max-width: 70%;
+    }
+
+    .shadow .wrapper p {
+        font-size: 12px;
+        max-width: 64%;
+    }
+
+    .infor-cards-1 .wrapper-cards-1 .container-cards-1 {
+        width: 100%;
+    }
+
+    .infor-cards-1 .wrapper-cards-1 .image-card-1 {
+        width: 100px;
+        height: 60px;
+    }
+
+    .infor-cards-1 .wrapper-cards-1 .title-card-1 h3 {
+        font-size: 14px;
+    }
+
+    .infor-cards-1 .wrapper-cards-1 .description-1 p {
+        font-size: 10px;
+    }
+
+    .infor-cards-1 {
+        width: 68%;
+    }
+
+    .infor-service .wrapper-services a {
+        font-size: 14px;
+    }
+
+    .infor-service .wrapper-services .wrapper-service {
+        padding: 8px;
+    }
+
+    .close-service {
+        width: 40px;
+        height: 40px;
+        margin-top: 16px;
+    }
+
+    .contact-link {
+        width: 300px;
+        height: 40px;
+    }
+
+    section.sector img {
+        width: 400px;
+        height: 320px;
+    }
+
+    section.sector h2 {
+        font-size: 24px;
+    }
+
+    section.s-client .wrapper {
+        width: 92%;
+    }
+
+    section.s-client .wrapper .cards {
+        gap: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .infor-cards-1 .wrapper-cards-1 {
+        width: 100%;
+        padding: 24px;
+    }
+
+    .infor-cards-1 .wrapper-cards-1 .image-card-1 {
+        width: 80px;
+        height: 50px;
+    }
+    
+    header .logomarca {
+        margin-left: 24px;
+    }
+
+    ul .contact {
+        margin-left: 16px;
+    }
+    
+    .menu-hamburguer-elements li {
+        font-size: 1.2rem;
+    }
+
+    .shadow .wrapper {
+        margin-left: 64px;
+    }
+
+    .shadow .wrapper h1 {
+        font-size: 24px;
+    }
+
+    section.s-about .wrapper{
+        width: 92%;
+    }
+
+    section.s-about .wrapper .cards .card {
+        padding: 12px 12px;
+        gap: 12px;
+    }
+
+    section.s-about .wrapper .cards .card .icon img {
+        width: 64px;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .menu-hamburguer-elements li{
+        font-size: 16px;
+    }
+
+    header ul .contact {
+        margin-left: 0;
+        padding: 16px 12px;
+    }
+    
+    header .logomarca {
+        width: 60px;
+        height: 60px;
+    }
+
+    section.sector img {
+        width: 350px;
+        height: 290px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .shadow .wrapper h1 {
+        font-size: 18px;
+        max-width: 88%;
+    }
+
+    .shadow {
+        height: 80vh;
+    }
+
+    .s-hero {
+        height: 80vh;
+    }
+
+    section.icons .container {
+        gap: 40px;
+    }
+
+    section.sector .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.sector img {
+        width: 100%;
+    }
+
+    section.sector .reverse {
+        flex-direction: column-reverse;
+    }
+
+    section.sector .container .sector-wrapper {
+        gap: 16px;
+    }
+
+    section.s-client .wrapper .grid{
+        display: grid;
+        justify-items: center;
+    }
+
+    section.s-client .wrapper .cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .menu-hamburger{
+        z-index: 2;
+    }
+
+    ul .contact {
+        padding: 0 0;
+    }
+    
+    section.s-about .wrapper .grid {
+        display: grid;
+    }
+
+    section.s-about .wrapper .cards {
+        gap: 8px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section.icons .container {
+        gap: 24px;
+    }
+
+    section.icons .container .wrapper {
+        animation: anima 6s linear infinite;
+    }
+
+    section.icons .container .wrapper img{
+        width: 72px;
+    }
+
+    section.icons .metrics .text {
+        max-width: 96%;
+    }
+
+    section.s-banner .image {
+        background-image: url(../img/banner-bg.png);
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .menu {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hamburguer {
+        top: 24px;
+        left: 8px;
+    }
+
+    header {
+        width: 100%;
+        height: 90px;
+    }
+
+    header ul .contact {
+        display: none;
+    }
+
+    .infor-service {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 100;
+        margin-top: 104px;
+        margin: 24px;
+    }
+
+    .infor-service .wrapper-services .wrapper-service {
+        padding: 16px;
+    }
+
+    ul .contact {
+        padding: 4px 12px;
+        margin-left: 0;
+
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+    
+    header {
+        padding: 8px 0;
+    }
+
+    .shadow .wrapper p {
+        max-width: 100%;
+    }
+
+    section.icons {
+        width: 100%;
+        display: flex;
+        margin: 50% 0 110px 0;
+    }
+
+    section.icons .container {
+        width: 100%;
+    }
+
+    section.icons .container .wrapper .icon img{
+        width: 50px;
+    }
+
+    section.icons .container .wrapper .infor h3 {
+        font-size: 14px;
+    }
+
+    section.icons .container .wrapper .infor p {
+        font-size: 12px;
+    }
+
+    .s-hero {
+        height: 60vh;
+    }
+
+    .infor-cards-1 {
+        width: 100%;
+        margin-top: 24px;
+        margin-left: 0;
+    }
+
+    .infor-cards-1 .wrapper-cards-1 .separate-1 {
+        margin: 0 8px;
+    }
+
+    .contact-link {
+        margin: auto;
+        margin-bottom: 24px;    
+        padding: 24px 4px;
+    }
+
+    .s-hero {
+        height: 50vh;
+    }
+
+    .s-hero .container .responsive-hidden {
+        display: none;
+    }
+
+    .s-hero {
+        height: 80vh;
+    }
+
+    .shadow {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to top, black 30%, transparent);
+    }
+
+    .shadow h1 {
+        font-size: 32px;
+    }
+
+    .shadow .wrapper {
+        margin-left: 16px;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        gap: 24px;
+    }
+    
+    footer img {
+        width: 100px;
+    }
+
+    footer .container .infor {
+        width: 95%;
+    }
+
+    section.s-client .wrapper .cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
+    
+}
+
+@media (max-width: 375px) {
+
+    .infor-cards-1 .wrapper-cards-1 .container-cards-1 {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .infor-cards-1 .wrapper-cards-1 .separate-1 {
+        height: 1px;
+        width: 100%;
+    }
+
+    header .logomarca {
+        width: 54px;
+    }
+
+    .menu {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hamburguer {
+        width: 20px;
+        height: 1px;
+        top: 20px;
+        left: 10px;
+    }
+
+    .shadow .wrapper h1 {
+        font-size: 20px;
+    }
+
+    .contact-link {
+        width: 280px;
+        height: 60px;
+    }
+
+    section.s-about .wrapper .container .service {
+        padding: 6px 12px;
+    }
+    
+    section.s-about .wrapper .container .contact {
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width: 330px) {
+    .infor-cards-1 .wrapper-cards-1 .image-card-1 {
+        width: 70px;
+        height: 40px;
+    }
+
+    .infor-cards-1 .wrapper-cards-1 .title-card-1 h3 {
+        font-size: 12px;
+    }
+
+    .infor-cards-1 .wrapper-cards-1 .description-1 p {
+        font-size: 8px;
+    }
+
+    .infor-cards-1 .wrapper-cards-1 .container-cards-1 {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .infor-cards-1 {
+        margin-top: 0px;
+    }
+
+    .infor-cards-1 .close-1 {
+        margin-top: 6px;
+    }
+}

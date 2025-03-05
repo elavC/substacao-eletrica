@@ -1,0 +1,246 @@
+/* HAMBURGUER */
+
+.menu-hamburger{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-hamburguer-elements{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-hamburguer-elements a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* BOTÃO MENU HAMBURGUER */
+.menu {
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    margin: 1rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+  
+.hamburguer {
+    position: relative;
+    display: block;
+    background: #fff;
+    width: 30px;
+    height: 2px;
+    top: 29px;
+    left: 15px;
+    transition: 0.5s ease-in-out;
+}
+  
+.hamburguer:before,
+.hamburguer:after {
+    background: #ffff;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+  
+.hamburguer:before {
+    top: -10px;
+}
+  
+.hamburguer:after {
+    bottom: -10px;
+}
+  
+input {
+    display: none;
+}
+
+/* rotação dos elementos do span */
+input:checked ~ label .hamburguer {
+    transform: rotate(45deg);
+}
+
+input:checked ~ label .hamburguer:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+  
+input:checked ~ label .hamburguer:after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+input:checked ~ .menu-hamburguer-elements{
+    left: 0;
+}
+
+/* ATIVANDO O BOTÃO HAMBURGUER QUANDO O TAMANHO DA TELA ATINGIR 600PX */
+@media (max-width: 600px){
+
+    .menu-hamburguer-elements li{
+        list-style: none;
+        font-size: 1.4rem;
+        margin: 2rem 0;
+        font-size: 1.4rem;
+        list-style: none;
+    }
+    
+    header{
+        height: 20%;
+    }
+
+    .menu-hamburguer-elements a:hover{
+        color: var(--primary-color);;
+    }
+    
+    .menu-hamburger{
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        align-self: flex-start;
+        overflow: auto;
+        z-index: 1;
+        color: white
+    }
+
+    .menu-hamburguer-elements{
+        width: 60%;
+        height: 100%;
+        background-color: rgba(10,10,10,.9);
+        position: fixed;
+        left: -60%;
+        top: 0;
+        transition: left cubic-bezier(1,0,0,1) .8s;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        z-index: -1;
+    }
+
+    .menu{
+        display: flex;
+        height: 60px;
+        width: 60px;
+    }
+
+}
+
+/* HAMBURGUER */
+
+
+/* BOTÃO ANIMADO */
+
+.contact-link {
+    border-style: none;
+    color:#fff;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+
+.contact-link span{
+    position: absolute;
+    display: block;
+}
+
+.contact-link span:nth-child(1){
+    height: 3px;
+    width: 350px;
+    top:0px;
+    left:-350px;
+    background: linear-gradient(to right, rgba(0,0,0,0), var(--blue-color));
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    animation: span1 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes span1{
+    0%{
+        left:-350px
+    }
+    100%{
+        left:350px;
+    }
+}
+.contact-link span:nth-child(2){
+    height: 60px;
+    width: 3px;
+    top:-60px;
+    right:0px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), var(--blue-color));
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    animation: span2 2s linear infinite;
+    animation-delay: 2s;
+}
+@keyframes span2{
+    0%{
+        top:-60px;
+    }
+    100%{
+        top:60px;
+    }
+}
+.contact-link span:nth-child(3){
+    height:3px;
+    width:350px;
+    right:-350px;
+    bottom: 0px;
+    background: linear-gradient(to left, rgba(0,0,0,0), var(--white-color));
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    animation: span3 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes span3{
+    0%{
+        right:-350px;
+    }
+    100%{
+        right: 350px;
+    }
+}
+
+.contact-link span:nth-child(4){
+    height:60px;
+    width:3px;
+    bottom:-60px;
+    left:0px;
+    background: linear-gradient(to top, rgba(0,0,0,0), var(--white-color));
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+    animation: span4 2s linear infinite;
+    animation-delay: 2s;
+}
+@keyframes span4{
+    0%{
+        bottom: -60px;
+    }
+    100%{
+        bottom:60px;
+    }
+}
+
+.contact-link:hover{
+    transition: all .5s;
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+}
+.contact-link:hover span{
+    animation-play-state: paused;
+}
+/* BOTÃO ANIMADO */
