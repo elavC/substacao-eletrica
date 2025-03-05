@@ -307,7 +307,6 @@ section.icons {
 }
 
 section.icons .container {
-    border: 1px solid red;
     margin: auto;
     margin-top: 80px;
     display: flex;
