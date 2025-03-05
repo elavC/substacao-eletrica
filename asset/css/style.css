@@ -303,15 +303,18 @@ section.icons {
     flex-direction: column;
     margin-bottom: 120px;
     gap: 80px;
+    overflow: hidden;
 }
 
 section.icons .container {
+    border: 1px solid red;
     margin: auto;
     margin-top: 80px;
     display: flex;
     justify-content: space-around;
     width: 100%;
     gap: 80px;
+    overflow: hidden;
 }
 
 section.icons .container .wrapper {
@@ -582,6 +585,7 @@ footer a img {
     position: fixed;
     bottom: 24px;
     left: 24px; 
+    z-index: 101;
 }
 
 footer a img:hover {
