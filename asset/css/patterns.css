@@ -36,8 +36,9 @@
   justify-content: center;
   align-items: center;
   gap: 16px;
-  width: 350px;
-  height: 60px;
+  width: 300px;
+  height: 42px;
+  margin: 0 auto;
 }
 
   .contact-link:hover {

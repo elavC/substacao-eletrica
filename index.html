@@ -1,608 +1,363 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="asset/css/patterns.css">
-    <link rel="stylesheet" href="asset/css/style.css">
-    <link rel="stylesheet" href="asset/css/animation.css">
-    <link rel="stylesheet" href="asset/css/responsive.css">
-    <link rel="shortcut icon" href="asset/img/Logo-amd-removebg-preview.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/css/patterns.css" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="stylesheet" href="asset/css/animation.css" />
+    <link rel="stylesheet" href="asset/css/responsive.css" />
+    <link
+      rel="shortcut icon"
+      href="asset/img/Logo-amd-removebg-preview.png"
+      type="image/x-icon"
+    />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <title>AMD Engenharia</title>
-</head>
-<body id="body">
-    
-    <header id="header">
-        <a href="#" class="link-logo">
-            <img 
-                src="./asset/img/logo-amd-original-removebg-preview.png" 
-                alt="logomarca da empresa VM soluções. A letra M e a letra V embas na cor branca. entrelaçadas."
-                class="logomarca">
-        </a>
-
-        <nav class="menu-hamburger">
-            
-            <input id="menu-hamburguer" type="checkbox" />
-            <label for="menu-hamburguer">
-                <div class="menu">
-                    <span class="hamburguer"></span>
-                </div>
-            </label>
-
-            <ul class="menu-hamburguer-elements show">
-                <li class="header-service" id="header-service">
-                    <span class="dropdown-menu">
-                        Nossos Serviços
-                    <img 
-                        src="./asset/img/seta-para-baixo.png" 
-                        alt="Seta na cor azul apontando para baixo" 
-                        class="seta-para-baixo">
-                </span>
-                </li>
-                <div class="header-card">
-                    <li>(43) 99618-2127</li>
-                </div>
-                <a 
-                    href="https://wa.me/5543996182127/?text=%20Olá,%20vim%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!"
-                    class="contact">
-                    <li>Entrar em contato</li>
-                </a>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- {HEADER} MODAL NOSSOS SERVIÇOS  - {INICIO} -->
-
-    <div class="modal infor-service" id="modal-service">
-        <div class="wrapper-services">
-            
-            <div class="container-primary">
-                <a href="#">
-                    <div class="wrapper-service">
-                        Instalações Elétricas
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="wrapper-service">
-                        Laudos e Inspeções Técnicas
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="wrapper-service">
-                        Eficiência Energética
-                    </div>
-                </a>
-            </div>
-            
-            <div class="container-secund">
-                <a href="#">
-                    <div class="wrapper-service">
-                        SPDA
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="wrapper-service">
-                        Automação e Sistemas Elétricos
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="wrapper-service">
-                        Manutenção Preventiva e Corretiva
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="close-service" id="close-service">X</div>
-    </div>
-
-    <!-- {HEADER} MODAL NOSSOS SERVIÇOS  - {FINAL} -->
-    
-    
-    
-    <!-- {HEADER} MODAL CARTOES CAIXA  - {INICIO} -->
-
-    <div class="modal infor-cards-1" id="modal-1">
-        <div class="wrapper-cards-1">
-            <div class="container-cards-1">
-                <div class="wrapper-card-1">
-                    <div class="image-card-1">
-                        <img src="./asset/img/cartao-azul-removebg-preview.png" alt="">
-                    </div>
-                    <div class="title-card-1">
-                        <h3>Cartão Caixa elo Mais</h3>
-                    </div>
-                    <div class="description-1">
-                        <p>
-                             Compras nacionais e internacionais, participa do Programa Pontos CAIXA. Acumula 1,2 ponto para cada US$1,00 (1 dólar) gasto. Limite mínimo de contratação R$ 1.000,00
-                        </p>
-                    </div>
-                </div>
-                <div class="separate-1"></div>
-                <div class="wrapper-card-1">
-                    <div class="image-card-1">
-                        <img src="./asset/img/cartao-preto.jpeg" alt="">
-                    </div>
-                    <div class="title-card-1">
-                        <h3>Cartão Caixa elo Nanquim</h3>
-                    </div>
-                    <div class="description-1">
-                        <p>
-                            Compras nacionais e internacionais e participa do Programa Pontos CAIXA. Acumula 2,3 pontos para cada US$ 1,00 (1 dólar) gasto. Limite mínimo de contratação R$ 15.000,00
-                        </p>
-                    </div>
-                </div>
-                <div class="separate-1"></div>
-                <div class="wrapper-card-1">
-                    <div class="image-card-1">
-                        <img src="./asset/img/cartao-prata.jpeg" alt="">
-                    </div>
-                    <div class="title-card-1">
-                        <h3>Cartão Caixa elo Grafite</h3>
-                    </div>
-                    <div class="description-1">
-                        <p>
-                            Compras nacionais e internacionais e participa do Programa Pontos CAIXA. Acumula 1,6 ponto para cada US$1,00 (1 dólar) gasto. Limite mínimo de contratação R$ 4.000,00
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="close-1" id="close-1">X</div>
-    </div>
-
-    <!-- {HEADER} MODAL CARTOES CAIXA  - {FINAL} -->
-    
+    <title>AMD | Subestações Elétricas</title>
+  </head>
+  <body id="body">
     <div class="shadow">
-        <div class="wrapper">
-            <h1>
-                Confie em quem faz do seu projeto uma realidade com excelência!
-            </h1>
-            <P>Com a AMD Engenharia, seu projeto ganha vida com precisão e excelência. Confie em nossa experiência para soluções inovadoras e praticas para você!</P>
-            <div class="buttom">
-                <a href="https://wa.me/5543996182127/?text=%20Olá,%20vim%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!" class="contact-link">
-                    Entrar em Contato! 
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </a>
-            </div>
+      <div class="wrapper">
+        <img
+          src="asset/img/logo-amd-original-removebg-preview.png"
+          class="logo"
+          alt=""
+        />
+        <h1>Subestações Elétricas Personalizadas para o Seu Negócio</h1>
+        <p>
+          Garanta mais eficiência energética e segurança com subestações
+          elétricas projetadas sob medida para a sua operação. Atendemos
+          indústrias, construtoras, grandes lojas, distribuidoras e o
+          agronegócio, oferecendo soluções personalizadas que reduzem custos e
+          otimizam o desempenho. Nossa equipe especializada assegura instalação
+          rápida, confiável e totalmente adaptada às suas necessidades.
+        </p>
+
+        <p>
+          Com tecnologia de ponta e um atendimento focado em resultados e alta
+          performance, entregamos projetos que garantem maior economia e um
+          fornecimento de energia estável e seguro. Conte com especialistas para
+          transformar sua infraestrutura elétrica e elevar sua produtividade!
+        </p>
+        <div class="buttom">
+          <a
+            href="https://wa.me/5543996182127/?text=%20Olá,%20vim%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!"
+            class="contact-link"
+          >
+            Entrar em Contato!
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
         </div>
+      </div>
     </div>
     <section class="s-hero">
-        <div class="container">
-            <div class="card responsive-hidden"></div>
-            <div class="midia slider">
-            <video 
-                src="./asset/img/1.mp4"
-                muted
-                autoplay
-                width="100%"
-                class="video">
-            </video>
-            </div>
+      <div class="container">
+        <div class="card responsive-hidden"></div>
+        <div class="midia slider">
+          <img src="asset/img/transformador.png" alt="" />
         </div>
+      </div>
     </section>
 
     <section class="icons">
-        <div class="container">
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-01.png" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-15.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-16.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-14.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-13.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-12.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-11.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-10.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-09.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-08.jpg" alt="">
-            </div>    
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-02.png" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-03.png" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-04.png" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-05.png" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-01.png" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-15.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-16.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-14.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-13.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-12.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-11.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-10.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-09.jpg" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-08.jpg" alt="">
-            </div>    
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-02.png" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-03.png" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-04.png" alt="">
-            </div>
-            <div class="wrapper mostrar">
-                <img src="asset/img/logo-empresa-05.png" alt="">
-            </div>
+      <div class="container">
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-01.png" alt="" />
         </div>
-        <div class="metrics">
-            <div class="title card text">
-                <h3>Acredite em quem realmente entende do assunto.</h3>
-            </div>
-            <div class="description card text">
-                <p>
-                    Com ampla experiência e conhecimento 
-                    especializado, entregamos soluções de 
-                    engenharia seguras e eficazes para cada projeto.
-                </p>
-            </div>
-            <div class="metric-number card"></div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-15.jpg" alt="" />
         </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-16.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-14.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-13.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-12.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-11.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-10.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-09.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-08.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-02.png" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-03.png" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-04.png" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-05.png" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-01.png" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-15.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-16.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-14.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-13.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-12.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-11.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-10.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-09.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-08.jpg" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-02.png" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-03.png" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-04.png" alt="" />
+        </div>
+        <div class="wrapper mostrar">
+          <img src="asset/img/logo-empresa-05.png" alt="" />
+        </div>
+      </div>
+      <div class="metrics">
+        <div class="title card text">
+          <h3>Acredite em quem realmente entende do assunto.</h3>
+        </div>
+        <div class="description card text">
+          <p>
+            Com ampla experiência e conhecimento especializado, entregamos
+            soluções de engenharia seguras e eficazes para cada projeto.
+          </p>
+        </div>
+        <div class="metric-number card"></div>
+      </div>
     </section>
 
     <section class="s-about">
-        <div class="wrapper">
-            <div class="cards grid">
-                <div class="card">
-                    <div class="icon">
-                        <img src="asset/img/icons/experience.png" alt="">
-                    </div>
-                    <div class="title">
-                        <h3>Experiência Comprovada</h3>
-                    </div>
-                    <div class="description">
-                        <p>Anos de atuação no mercado atendendo grandes 
-                            projetos com excelência.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="icon">
-                        <img src="asset/img/icons/seguranca.png" alt="">
-                    </div>
-                    <div class="title">
-                        <h3>Segurança e Conformidade</h3>
-                    </div>
-                    <div class="description">
-                        <p>Seguindo rigorosamente as normas da ABNT e demais 
-                            regulamentações.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="icon">
-                        <img src="asset/img/icons/equipe.png" alt="">
-                    </div>
-                    <div class="title">
-                        <h3>Equipe Especializada</h3>
-                    </div>
-                    <div class="description">
-                        <p>Profissionais qualificados para oferecer as melhores 
-                            soluções.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="icon">
-                        <img src="asset/img/icons/projetos.png" alt="">
-                    </div>
-                    <div class="title">
-                        <h3>Projetos Personalizados</h3>
-                    </div>
-                    <div class="description">
-                        <p>Soluções feitas sob medida para atender às 
-                            necessidades do seu negócio.
-                        </p>
-                    </div>
-                </div>
+      <div class="wrapper">
+        <div class="cards grid">
+          <div class="card">
+            <div class="icon">
+              <img src="asset/img/icons/experience.png" alt="" />
             </div>
-            <div class="container">
-                <a href="">
-                    <div class="service">
-                        Nossos serviços
-                    </div>
-                </a>
-                <a href="https://wa.me/5543996182127/?text=%20Olá,%20vim%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!">
-                    <div class="contact">
-                        Nossos Contatos
-                    </div>
-                </a>
+            <div class="title">
+              <h3>Experiência Comprovada</h3>
             </div>
+            <div class="description">
+              <p>
+                Anos de atuação no mercado atendendo grandes projetos com
+                excelência.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="asset/img/icons/seguranca.png" alt="" />
+            </div>
+            <div class="title">
+              <h3>Segurança e Conformidade</h3>
+            </div>
+            <div class="description">
+              <p>
+                Seguindo rigorosamente as normas da ABNT e demais
+                regulamentações.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="asset/img/icons/equipe.png" alt="" />
+            </div>
+            <div class="title">
+              <h3>Equipe Especializada</h3>
+            </div>
+            <div class="description">
+              <p>
+                Profissionais qualificados para oferecer as melhores soluções.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="asset/img/icons/projetos.png" alt="" />
+            </div>
+            <div class="title">
+              <h3>Projetos Personalizados</h3>
+            </div>
+            <div class="description">
+              <p>
+                Soluções feitas sob medida para atender às necessidades do seu
+                negócio.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="sector">
-        <div class="container reverse">
-            <div class="sector-wrapper">
-                <div class="title">
-                    <h2>Indústrias</h2>
-                </div>
-                <div class="description">
-                    <p>
-                        A indústria exige soluções elétricas robustas e seguras para 
-                        suportar operações de alta demanda energética. A AMD 
-                        Engenharia oferece projetos completos para garantir a 
-                        eficiência dos processos produtivos, prevenindo falhas e 
-                        reduzindo custos operacionais. Com tecnologia avançada e 
-                        equipe especializada, desenvolvemos sistemas elétricos 
-                        modernos, alinhados às normas técnicas e regulatórias.
-                    </p>
-                </div>
-                <div class="check">
-                    <ul>
-                        <li>Projetos elétricos para alta demanda energética</li>
-                        <li>Instalação e manutenção de painéis elétricos</li>
-                        <li>Automação e monitoramento de processos industriais</li>
-                        <li>Sistemas de proteção contra surtos elétricos</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="image-left sector-img">
-                <img src="asset/img/industria.png" alt="">
-            </div>
+      <div class="container reverse">
+        <div class="sector-wrapper">
+          <div class="title">
+            <h2>Melhor sua eficiência energética!</h2>
+          </div>
+            <p>
+              Sua empresa precisa de uma subestação elétrica de alta
+              performance, capaz de reduzir custos, evitar quedas de energia e
+              garantir máxima eficiência. Atendemos indústrias, construtoras,
+              grandes lojas, distribuidoras e o agronegócio, oferecendo soluções
+              personalizadas, instalação rápida e tecnologia de ponta para
+              manter sua operação funcionando sem interrupções.
+            </p>
+          <div class="check">
+            <p>
+              Não arrisque a produtividade do seu negócio com sistemas
+              ultrapassados! Conte com especialistas para entregar um projeto
+              seguro, econômico e sob medida para suas necessidades. Solicite um
+              orçamento agora e tenha a energia que seu empreendimento realmente
+              precisa!
+            </p>
+          </div>
         </div>
-
-        <div class="img-right container">
-            <div class="image-right sector-img">
-                <img src="asset/img/codominios-e-cadas.jpeg" alt="">
-            </div>
-            <div class="side-left sector-wrapper">
-                <div class="title">
-                    <h2>Condomínios e Residências</h2>
-                </div>
-                <div class="description">
-                    <p>
-                        A segurança e o conforto de um lar ou condomínio começam com uma 
-                        infraestrutura elétrica confiável. A AMD Engenharia oferece 
-                        projetos e serviços que garantem eficiência energética, segurança 
-                        contra curtos-circuitos e otimização do consumo, proporcionando 
-                        tranquilidade para moradores e administradores de condomínios.
-                    </p>
-                </div>
-                <div class="check">
-                    <ul>
-                        <li>Instalação e modernização de redes elétricas</li>
-                        <li>Sistemas de automação residencial para controle inteligente</li>
-                        <li>Energia solar para redução de custos e sustentabilidade</li>
-                        <li>Proteção contra surtos, curtos-circuitos e sobrecarga elétrica</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="image-left sector-img">
+          <img src="asset/img/rede-eletrica.png" id="img-2-bg"/>
+          <img src="asset/img/section-2-mobile.png" id="img-2-mobile"/>
         </div>
-
-        <div class="container reverse">
-            <div class="side-right sector-wrapper">
-                <div class="title">
-                    <h2>Comércio e Escritórios</h2>
-                </div>
-                <div class="description">
-                    <p>
-                        Para empresas do setor comercial e corporativo, a confiabilidade da 
-                        rede elétrica é essencial para manter a produtividade e evitar 
-                        interrupções nas operações. A AMD Engenharia projeta e executa 
-                        instalações elétricas seguras, eficientes e adaptadas às 
-                        necessidades de cada negócio, garantindo economia, 
-                        funcionalidade e conformidade com as regulamentações.
-                    </p>
-                </div>
-                <div class="check">
-                    <ul>
-                        <li>Instalação de redes elétricas e iluminação</li>
-                        <li>Eficiência energética para redução de custos</li>
-                        <li>Sistemas de proteção contra quedas de energia</li>
-                        <li>Manutenção preventiva e corretiva</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="image-left sector-img">
-                <img src="asset/img/comercio-e-escritorios.png" alt="">
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="image-right sector-img">
-                <img src="asset/img/hospitais" alt="">
-            </div>
-            <div class="sector-wrapper">
-                <div class="title">
-                    <h2>Hospitais e Clínicas</h2>
-                </div>
-                <div class="description">
-                    <p>
-                        Ambientes hospitalares exigem sistemas elétricos confiáveis, seguros e 
-                        de funcionamento contínuo, uma vez que falhas podem comprometer a 
-                        vida dos pacientes. A AMD Engenharia projeta e executa redes 
-                        elétricas otimizadas para hospitais, clínicas e laboratórios, garantindo 
-                        fornecimento ininterrupto.
-                    </p>
-                </div>
-                <div class="check">
-                    <ul>
-                        <li>Sistemas de emergência para equipamentos críticos</li>
-                        <li>Instalação de redes elétricas dedicadas a aparelhos médicos</li>
-                        <li>Iluminação especial para salas cirúrgicas e UTI</li>
-                        <li>Adequação dos sistemas elétricos às normas hospitalares vigentes</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container reverse">
-            <div class="side-right sector-wrapper">
-                <div class="title">
-                    <h2>Construção Civil</h2>
-                </div>
-                <div class="description">
-                    <p>
-                        O setor da construção civil depende de um planejamento 
-                        elétrico bem estruturado para garantir a segurança, a 
-                        viabilidade e o funcionamento adequado das instalações. 
-                        A AMD Engenharia desenvolve projetos completos para 
-                        novas construções, reformas e ampliações, assegurando 
-                        soluções elétricas eficientes.
-                    </p>
-                </div>
-                <div class="check">
-                    <ul>
-                        <li>Desenvolvimento de projetos elétricos completos</li>
-                        <li>Instalação de sistemas de aterramento e SPDA</li>
-                        <li>Dimensionamento de quadros de distribuição</li>
-                        <li>Energia solar e soluções sustentáveis</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="image-left sector-img">
-                <img src="asset/img/construcao-civil.jpg" alt="">
-            </div>
-        </div>
-    </section>
-
-    <section class="s-banner">
-        <div class="image"></div>
-    </section>
-
-    <section class="s-client">
-        <div class="wrapper">
-            <div class="cards grid">
-                <div class="card">
-                    <div class="icon">
-                        <img src="asset/img/icons/aspas-duplas.png" alt="">
-                    </div>
-                    <div class="text">
-                        <p>
-                            Contratei os serviços para a instalação elétrica 
-                            do meu galpão industrial e fiquei impressionado 
-                            com o profissionalismo e a qualidade do 
-                            trabalho. Tudo foi feito dentro do prazo 
-                            e com extrema segurança. Recomendo!
-                        </p>
-                    </div>
-                    <div class="image-client">
-                        <img src="asset/img/avatar-1.webp" alt="">
-                        <h4>Marcos Andrade</h4>
-                    </div>
-                </div>
-                <div class="card">
-                     <div class="icon">
-                        <img src="asset/img/icons/aspas-duplas.png" alt="">
-                    </div>
-                    <div class="text">
-                        <p>
-                            Precisava de um projeto elétrico eficiente e 
-                            seguro para um condomínio residencial. A equipe 
-                            entregou um trabalho impecável, sempre 
-                            disponível para esclarecer dúvidas e garantindo 
-                            total conformidade com as normas.
-                        </p>
-                    </div>
-                    <div class="image-client">
-                        <img src="asset/img/avatar-1.webp" alt="">
-                        <h4>Ricardo Lima</h4>
-                    </div>
-                </div>
-                <div class="card">
-                     <div class="icon">
-                        <img src="asset/img/icons/aspas-duplas.png" alt="">
-                    </div>
-                    <div class="text">
-                        <p>
-                            Tivemos um problema sério com a fiação do nosso 
-                            prédio e, graças a essa empresa, tudo foi 
-                            resolvido rapidamente e com muita competência. 
-                            Agora temos um sistema elétrico moderno e 
-                            confiável!
-                        </p>
-                    </div>
-                    <div class="image-client">
-                        <img src="asset/img/avatar-1.webp" alt="">
-                        <h4>Roberto Cassio</h4>
-                    </div>
-                </div>
-                <div class="card">
-                     <div class="icon">
-                        <img src="asset/img/icons/aspas-duplas.png" alt="">
-                    </div>
-                    <div class="text">
-                        <p>
-                            A modernização do sistema elétrico da minha loja 
-                            foi um sucesso! Reduzi os custos com energia e 
-                            ainda aumentei a segurança. O atendimento foi 
-                            incrível do início ao fim. Valeu cada centavo!
-                        </p>
-                    </div>
-                    <div class="image-client">
-                        <img src="asset/img/avatar-1.webp" alt="">
-                        <h4>Ronaldo Silva</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-      <footer>
-        <div class="container">
-            <img src="asset/img/logo-amd-original-removebg-preview.png" alt="">
-            <div class="infor">
-                <p>
-                    AMD Engenharia - CNPJ: 26.674.920/0001-89<br><br>
-                    Copyright ® 2017 - Todos os Direitos Reservados.
-                </p>
-            </div>
-        </div>
-        <a href="https://wa.me/5543996182127/?text=%20Olá,%20vim%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!">
-            <img src="asset/img/icon-whatsapp.png" class="whatsapp" alt="">
+      </div>
+      <div class="buttom">
+        <a
+          href="https://wa.me/5543996182127/?text=%20Olá,%20vim%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!"
+          class="contact-link"
+        >
+          Entrar em Contato!
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </a>
-      </footer>
+      </div>
+      <section class="s-client">
+        <div class="wrapper">
+          <div class="cards grid">
+            <div class="card">
+              <div class="icon">
+                <img src="asset/img/icons/aspas-duplas.png" alt="" />
+              </div>
+              <div class="text">
+                <p>
+                  Contratei os serviços para a instalação elétrica do meu galpão
+                  industrial e fiquei impressionado com o profissionalismo e a
+                  qualidade do trabalho. Tudo foi feito dentro do prazo.
+                </p>
+              </div>
+              <div class="image-client">
+                <img src="asset/img/avatar-1.webp" alt="" />
+                <h4>Marcos Andrade</h4>
+              </div>
+            </div>
+            <div class="card">
+              <div class="icon">
+                <img src="asset/img/icons/aspas-duplas.png" alt="" />
+              </div>
+              <div class="text">
+                <p>
+                  Precisava de um projeto elétrico eficiente e seguro para um
+                  condomínio residencial. A equipe entregou um trabalho impecável,
+                  sempre disponível para esclarecer dúvidas.
+                </p>
+              </div>
+              <div class="image-client">
+                <img src="asset/img/avatar-1.webp" alt="" />
+                <h4>Ricardo Lima</h4>
+              </div>
+            </div>
+            <div class="card">
+              <div class="icon">
+                <img src="asset/img/icons/aspas-duplas.png" alt="" />
+              </div>
+              <div class="text">
+                <p>
+                  Tivemos um problema sério com a fiação do nosso prédio e, graças
+                  a essa empresa, tudo foi resolvido rapidamente e com muita
+                  competência. Agora temos um sistema elétrico moderno e
+                  confiável!
+                </p>
+              </div>
+              <div class="image-client">
+                <img src="asset/img/avatar-1.webp" alt="" />
+                <h4>Roberto Cassio</h4>
+              </div>
+            </div>
+            <div class="card">
+              <div class="icon">
+                <img src="asset/img/icons/aspas-duplas.png" alt="" />
+              </div>
+              <div class="text">
+                <p>
+                  A modernização do sistema elétrico da minha loja foi um sucesso!
+                  Reduzi os custos com energia e ainda aumentei a segurança. O
+                  atendimento foi incrível do início ao fim. Valeu cada centavo!
+                </p>
+              </div>
+              <div class="image-client">
+                <img src="asset/img/avatar-1.webp" alt="" />
+                <h4>Ronaldo Silva</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>   
+
+    <footer>
+      <div class="container">
+        <img src="asset/img/logo-amd-original-removebg-preview.png" alt="" />
+        <div class="infor">
+          <p>
+            AMD Engenharia - CNPJ: 26.674.920/0001-89<br /><br />
+            Copyright ® 2017 - Todos os Direitos Reservados.
+          </p>
+        </div>
+      </div>
+      <a
+        href="https://wa.me/5543996182127/?text=%20Olá,%20vim%20através%20do%20site%20e%20gostaria%20de%20mais%20informações!"
+      >
+        <img src="asset/img/icon-whatsapp.png" class="whatsapp" alt="" />
+      </a>
+    </footer>
 
     <script src="asset/script/script.js"></script>
-</body>
+  </body>
 </html>

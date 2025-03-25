@@ -3,16 +3,15 @@
         width: 80%;
         gap: 120px;
     }
-
 }
 
 @media (max-width: 1500px)   {
-    section.s-about .container-block {
-        width: 86%;
-    }
-
     .shadow .wrapper h1 {
         font-size: 30px;
+    }
+
+    section.s-client {
+        width: 90%;
     }
     
 }
@@ -28,75 +27,33 @@
         max-width: 64%;
     }
 
-    .infor-cards-1 .wrapper-cards-1 .container-cards-1 {
-        width: 100%;
-    }
-
-    .infor-cards-1 .wrapper-cards-1 .image-card-1 {
-        width: 100px;
-        height: 60px;
-    }
-
-    .infor-cards-1 .wrapper-cards-1 .title-card-1 h3 {
-        font-size: 14px;
-    }
-
-    .infor-cards-1 .wrapper-cards-1 .description-1 p {
-        font-size: 10px;
-    }
-
-    .infor-cards-1 {
-        width: 68%;
-    }
-
-    .infor-service .wrapper-services a {
-        font-size: 14px;
-    }
-
-    .infor-service .wrapper-services .wrapper-service {
-        padding: 8px;
-    }
-
-    .close-service {
-        width: 32px;
-        height: 32px;
-        margin-top: 16px;
-    }
-
     .contact-link {
         width: 300px;
         height: 40px;
-    }
-
-    section.sector img {
-        width: 400px;
-        height: 320px;
     }
 
     section.sector h2 {
         font-size: 24px;
     }
 
+    section.s-client{
+        width: 95%;
+    }
+
     section.s-client .wrapper {
-        width: 92%;
+        width: 100%;
     }
 
     section.s-client .wrapper .cards {
-        gap: 12px;
+        gap: 8px;
+    }
+
+    section.s-client .wrapper .cards .card h4 {
+        font-size: 16px;
     }
 }
 
-@media (max-width: 1024px) {
-    .infor-cards-1 .wrapper-cards-1 {
-        width: 100%;
-        padding: 24px;
-    }
-
-    .infor-cards-1 .wrapper-cards-1 .image-card-1 {
-        width: 80px;
-        height: 50px;
-    }
-    
+@media (max-width: 1024px) {    
     header .logomarca {
         margin-left: 24px;
     }
@@ -146,11 +103,6 @@
         width: 60px;
         height: 60px;
     }
-
-    section.sector img {
-        width: 350px;
-        height: 290px;
-    }
 }
 
 
@@ -177,16 +129,8 @@
         flex-direction: column;
     }
 
-    section.sector img {
-        width: 100%;
-    }
-
     section.sector .reverse {
         flex-direction: column-reverse;
-    }
-
-    section.sector .container .sector-wrapper {
-        gap: 16px;
     }
 
     section.s-client .wrapper .grid{
@@ -197,6 +141,31 @@
     section.s-client .wrapper .cards {
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
+        width: 80%;
+    }
+
+    section.s-client{
+        width: 90%;
+    }
+
+    #img-2-mobile {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #img-2-bg {
+        display: none;
+    }
+
+    section.sector .container .sector-wrapper {
+        max-width: 100%;        
+        margin-top: 24px;
+        gap: 12px;
+    }
+
+    section.sector .description p{
+        text-align: center;
     }
 }
 
@@ -239,6 +208,10 @@
         background-image: url(../img/banner-bg.png);
     }
 
+    section.sector .container .sector-wrapper {
+        margin: 0 5%;
+    }
+
 }
 
 @media (max-width: 450px) {
@@ -256,29 +229,6 @@
     header {
         width: 100%;
         height: 90px;
-    }
-
-    header ul .contact {
-        display: none;
-    }
-
-    .infor-service {
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        z-index: 100;
-        margin-top: 104px;
-        margin: 24px;
-    }
-
-    .infor-service .wrapper-services .wrapper-service {
-        padding: 16px;
-    }
-
-    ul .contact {
-        padding: 4px 12px;
-        margin-left: 0;
-
     }
 
     h2 {
@@ -317,16 +267,6 @@
 
     .s-hero {
         height: 60vh;
-    }
-
-    .infor-cards-1 {
-        width: 100%;
-        margin-top: 24px;
-        margin-left: 0;
-    }
-
-    .infor-cards-1 .wrapper-cards-1 .separate-1 {
-        margin: 0 8px;
     }
 
     .contact-link {
@@ -383,17 +323,6 @@
 }
 
 @media (max-width: 375px) {
-
-    .infor-cards-1 .wrapper-cards-1 .container-cards-1 {
-        flex-direction: column;
-        gap: 16px;
-    }
-
-    .infor-cards-1 .wrapper-cards-1 .separate-1 {
-        height: 1px;
-        width: 100%;
-    }
-
     header .logomarca {
         width: 54px;
     }
@@ -425,33 +354,5 @@
     
     section.s-about .wrapper .container .contact {
         padding: 6px 12px;
-    }
-}
-
-@media (max-width: 330px) {
-    .infor-cards-1 .wrapper-cards-1 .image-card-1 {
-        width: 70px;
-        height: 40px;
-    }
-
-    .infor-cards-1 .wrapper-cards-1 .title-card-1 h3 {
-        font-size: 12px;
-    }
-
-    .infor-cards-1 .wrapper-cards-1 .description-1 p {
-        font-size: 8px;
-    }
-
-    .infor-cards-1 .wrapper-cards-1 .container-cards-1 {
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    .infor-cards-1 {
-        margin-top: 0px;
-    }
-
-    .infor-cards-1 .close-1 {
-        margin-top: 6px;
     }
 }
